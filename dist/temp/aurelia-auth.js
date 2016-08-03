@@ -1025,6 +1025,10 @@ var AuthService = exports.AuthService = (_dec8 = (0, _aureliaDependencyInjection
     return this.auth.getPayload();
   };
 
+  AuthService.prototype.setToken = function setToken(token) {
+    this.auth.setToken(Object.defineProperty({}, this.config.tokenName, { value: token }));
+  };
+
   AuthService.prototype.signup = function signup(displayName, email, password) {
     var _this7 = this;
 

@@ -46,6 +46,10 @@ define(['exports', 'aurelia-dependency-injection', 'aurelia-fetch-client', 'aure
       return this.auth.getPayload();
     };
 
+    AuthService.prototype.setToken = function setToken(token) {
+      this.auth.setToken(Object.defineProperty({}, this.config.tokenName, { value: token }));
+    };
+
     AuthService.prototype.signup = function signup(displayName, email, password) {
       var _this = this;
 

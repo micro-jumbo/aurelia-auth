@@ -1,6 +1,6 @@
 {
   "name": "aurelia-auth",
-  "version": "3.0.2",
+  "version": "3.0.6",
   "description": "Plugin for security token service, social media authentication and local authentication together with other authentication utilities",
   "keywords": [
     "aurelia",
@@ -62,7 +62,7 @@
     "babel-preset-stage-1": "^6.5.0",
     "conventional-changelog": "0.0.17",
     "del": "^1.1.0",
-    "gulp": "^3.8.10",
+    "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-bump": "^0.3.1",
     "gulp-concat": "^2.6.0",
